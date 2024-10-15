@@ -1,0 +1,33 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  color: rgb(0, 0, 0);
+  text-transform: capitalize;
+}
+body {
+  background-color: rgb(231, 226, 226);
+}
+.maincontainer {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.samll_container {
+  height: 30px;
+  width: 200px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: rgb(102, 102, 28);
+  justify-content: space-around;
+}
+.striked {
+  text-decoration: line-through;
+  color: brown;
+  background-color: white;
+}
